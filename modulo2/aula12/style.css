@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(68, 68, 68);
+    margin: 2px;
+}
+
+header {
+    background-color: rgb(124, 103, 56);
+    color: white;
+    padding: 3px;
+}
+
+nav {
+    background-color: rgb(80, 80, 80);
+    margin: 3px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+nav > a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+
+main {
+    background-color: rgb(218, 172, 88);
+    padding: 5px;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+
+article > aside{
+    background-color: aliceblue;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 6px;
+}
+
+footer > p {
+    margin: 0px;
+}

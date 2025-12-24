@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(136, 136, 136);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+    background-color: black;
+    color: aliceblue;
+}
+
+p {
+    background-color: azure;
+    text-align: justify;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(65, 103, 136);
+    color: rgb(26, 40, 53);
+}
+
+
+h1 {
+    background-color: rgb(47, 72, 95);
+    color: rgb(13, 19, 26);
+}
+
+h2 {
+    background-color: rgb(90, 138, 184);
+    color: rgb(15, 24, 31);
+}
+
+h2#html {
+    text-align: center;
+}
+
+h2.css {
+    text-align: right;
+}
+
+h2#hope {
+    background-color: orangered;
+    color: black;
+}

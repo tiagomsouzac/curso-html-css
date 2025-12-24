@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a {
+            color: chocolate;
+            text-decoration: none;
+        }
+
+
+        a:hover {
+            color: blueviolet;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: cadetblue;
+        }
+
+        a:visited {
+            text-decoration: line-through;
+        }
+
+        a::after{
+            content: ' <';
+            text-decoration: none;
+        }
+
+        a::before{
+            content: '- ';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+
+    <ul>
+        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+        <li><a href="https://www.youtube.com/watch?v=aJ6oQAur3xY" target="_blank">Hope</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 8px;
+            background-color: bisque;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabela grandes</h1>
+    <!--   
+    ANATOMIA PARA TABELAS GRANDES
+
+    TABLE
+        CAPTION
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+    -->
+
+    <table>
+        <caption>População de lugares</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">40.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.000.000</td>
+            </tr>
+
+            <tr>
+                <td>Outra cidade</td>
+                <td class="num">83293892</td>
+            </tr>
+
+            <tr>
+                <td>essa é grande</td>
+                <td class="num">900000000000</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+
+            <tr>
+                <td>ultimo porque sim</td>
+                <td class="num">1</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td>00000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet animi nulla dolorum doloremque officiis magnam ipsam? Reprehenderit officiis eveniet unde rerum nesciunt, recusandae dolor quia tempora tempore excepturi assumenda neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae in facilis tempore temporibus illo deserunt at eligendi assumenda, mollitia praesentium magnam reiciendis rem tempora vero, quae sunt nulla non. Dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem provident quidem recusandae amet maiores architecto commodi tempora, debitis unde obcaecati at repellendus accusamus nam, perspiciatis, tenetur earum dolores vel nesciunt!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet animi nulla dolorum doloremque officiis magnam ipsam? Reprehenderit officiis eveniet unde rerum nesciunt, recusandae dolor quia tempora tempore excepturi assumenda neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae in facilis tempore temporibus illo deserunt at eligendi assumenda, mollitia praesentium magnam reiciendis rem tempora vero, quae sunt nulla non. Dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem provident quidem recusandae amet maiores architecto commodi tempora, debitis unde obcaecati at repellendus accusamus nam, perspiciatis, tenetur earum dolores vel nesciunt!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet animi nulla dolorum doloremque officiis magnam ipsam? Reprehenderit officiis eveniet unde rerum nesciunt, recusandae dolor quia tempora tempore excepturi assumenda neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae in facilis tempore temporibus illo deserunt at eligendi assumenda, mollitia praesentium magnam reiciendis rem tempora vero, quae sunt nulla non. Dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem provident quidem recusandae amet maiores architecto commodi tempora, debitis unde obcaecati at repellendus accusamus nam, perspiciatis, tenetur earum dolores vel nesciunt!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet animi nulla dolorum doloremque officiis magnam ipsam? Reprehenderit officiis eveniet unde rerum nesciunt, recusandae dolor quia tempora tempore excepturi assumenda neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae in facilis tempore temporibus illo deserunt at eligendi assumenda, mollitia praesentium magnam reiciendis rem tempora vero, quae sunt nulla non. Dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem provident quidem recusandae amet maiores architecto commodi tempora, debitis unde obcaecati at repellendus accusamus nam, perspiciatis, tenetur earum dolores vel nesciunt!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet animi nulla dolorum doloremque officiis magnam ipsam? Reprehenderit officiis eveniet unde rerum nesciunt, recusandae dolor quia tempora tempore excepturi assumenda neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae in facilis tempore temporibus illo deserunt at eligendi assumenda, mollitia praesentium magnam reiciendis rem tempora vero, quae sunt nulla non. Dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem provident quidem recusandae amet maiores architecto commodi tempora, debitis unde obcaecati at repellendus accusamus nam, perspiciatis, tenetur earum dolores vel nesciunt!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet animi nulla dolorum doloremque officiis magnam ipsam? Reprehenderit officiis eveniet unde rerum nesciunt, recusandae dolor quia tempora tempore excepturi assumenda neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae in facilis tempore temporibus illo deserunt at eligendi assumenda, mollitia praesentium magnam reiciendis rem tempora vero, quae sunt nulla non. Dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem provident quidem recusandae amet maiores architecto commodi tempora, debitis unde obcaecati at repellendus accusamus nam, perspiciatis, tenetur earum dolores vel nesciunt!</p>
+</body>
+</html>

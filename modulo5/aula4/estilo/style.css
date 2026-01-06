@@ -1,0 +1,96 @@
+/*justif-content flex-start*/
+div.container1 {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+div.container2 {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+div.container3 {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.container4 {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.container5 {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.container6 {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.container7 {
+    background-color: aquamarine;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: stretch;
+}
+
+div.container8 {
+    background-color: aquamarine;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: flex-start;
+}
+
+div.container9 {
+    background-color: aquamarine;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: flex-end;
+}
+
+div.container10 {
+    background-color: aquamarine;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+
+div.item1 {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+

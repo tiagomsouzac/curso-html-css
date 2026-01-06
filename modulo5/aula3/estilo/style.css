@@ -1,0 +1,62 @@
+/*wrap*/
+div.container1 {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.item1 {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    flex: auto;
+}
+
+div.container2 {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+div.item2 {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    flex: auto;
+}
+
+/*wrap reverse*/
+div.container3 {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+div.item3 {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    flex: auto;
+}
+
+
+div.container4 {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+div.item4 {
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    flex: auto;
+}
